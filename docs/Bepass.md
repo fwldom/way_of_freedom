@@ -7,11 +7,9 @@ Bepass: A DPI-nightmare proxy
 
 
 # تذکر
-اپلیکشن Beepass ربطی به این اپلیکشن ندارد و.
+اپلیکشن Beepass ربطی به این اپلیکشن ندارد.
 
 </br>
 برای کمک به این پروژه کتاب 
-Network Programg with Go
+Network Programming with Go
 را مطالعه کنید
-
-
