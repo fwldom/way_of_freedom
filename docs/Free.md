@@ -487,3 +487,64 @@ https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/merged.txt
 ## poroxybaz
 
 https://t.me/poroxybaz
+
+## دریافت رایگان پروکسی پرسرعت🔥🥰
+
+
+اسکیریپت استفاده شده👇
+
+bash <(curl -fsSL https://raw.githubusercontent.com/Kolandone/Selector/main/Sel.sh)
+
+داخل برنامه ترموکس وارد کنید 
+(یا از گیتهاب یا از پلی استور دانلود کنید)
+
+
+
+## یه ساب پیدا کردم سرعتش عالیه نامحدود هم هست🫶
+https://raw.githubusercontent.com/xc0000e9/deatnote/main/Hiddify-next.fragment
+
+ادیت:
+مثل این که منبع برای ایشون دمش گرم🔥
+https://t.me/unlocked_worlld
+
+## arshiacomplus
+
+https://github.com/arshiacomplus/v2rayExtractor
+
+https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/vmess.html
+https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/trojan.html
+https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/hy2.html
+https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/tuic.html
+
+
+## telegram-configs-collector
+
+https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vmess
+
+https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vless
+
+https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/reality
+    
+https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/tuic
+
+https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/juicity
+
+https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/trojan
+
+https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/hysteria
+
+https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/shadowsocks
+
+
+
+## Amin
+
+https://raw.githubusercontent.com/amin4139/share_file/refs/heads/main/Fastly_freeConfig
+
+https://raw.githubusercontent.com/amin4139/share_file/refs/heads/main/Fastly_ConfigTestV2rayNG
+
+
+## iPsycho01
+
+
+https://raw.githubusercontent.com/iPsycho1/Subscription/refs/heads/main/iPsycho-Fastly

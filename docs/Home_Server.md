@@ -220,3 +220,159 @@ The Shocking Truth About 6to4 Configuration Nobody Tells You
 در آینده ویدئو های جالب تری رو سعی میکنم آماده کنم در همین خصوص که کمکی به مردم خودم کرده باشم . کانتینر های جالبی هست که به کارتون میاد
 
 https://www.youtube.com/watch?v=hFQuW8nKM0s
+
+
+##  Get Uptime Kuma Server Monitoring+ مانیتورینگ سرویسها میکروتیک با آپ تایم کوما 
+
+آپ تایم کوما یک سیستم مانیتورینگ عالی برای استفاده شخصی و تجاری جهت مانیتور کردن سرویس هاتون هست و بصورت همزمان در سرور خودتون میتونید داشته باشیدش
+
+به شما پیشنهاد میکنم حتما نصب داشته باشید و تنظیمات نوتیفیکیشن رو هم انجام بدین
+1)setup container network 
+
+/interface/bridge/add name=dockers
+/ip/address/add address=172.17.0.1/24 interface=dockers
+/interface/veth/add name=veth1 address=172.17.0.2/24 gateway=172.17.0.1
+/interface/bridge/port add bridge=dockers interface=veth1
+/ip/firewall/nat/add chain=srcnat action=masquerade src-address=172.17.0.0/24
+
+______________________
+2)mount:
+name:uptime
+src:uptimekuma
+dst:/app/data
+_________________________
+3)uptimekuma image:
+
+louislam/uptime-kuma
+
+
+https://github.com/louislam/uptime-kuma
+
+https://hub.docker.com/r/louislam/uptime-kumavvvvvv
+______________________________
+
+کانتینر فقط روی روتر های دارای سی پی یو ARM -ARM64 -X86-64  نصب میشه و از روتر او اس ورژن ۷ به بالا اضافه شده .
+امکانات خوبی رو میتونید از داکر ریجستری داخلش داشته باشید .
+____________________
+#میکروتیک: انقلاب در مدیریت شبکه
+
+میکروتیک یک شرکت معتبر در زمینه تولید تجهیزات شبکه و نرم‌افزارهای مرتبط است که در سال ۱۹۹۶ در لتونی تأسیس شد. این شرکت به واسطه محصولات با کیفیت و مقرون به صرفه‌اش، به ویژه روتر‌بورد‌ها (RouterBoard) و سیستم‌عامل پیشرفته RouterOS شناخته شده است.
+
+کاربردهای میکروتیک:
+
+مدیریت شبکه‌های تجاری و خانگی: روترهای میکروتیک با امکاناتی مانند کنترل ترافیک، فایروال، و مدیریت پهنای باند به کاربران امکان مدیریت و نظارت بر شبکه‌های خود را می‌دهند.
+
+شبکه‌های وایرلس: میکروتیک راه‌حل‌های کامل برای ایجاد و مدیریت شبکه‌های بی‌سیم ارائه می‌دهد که شامل روترهای وایرلس، آنتن‌ها، و تجهیزات مرتبط می‌شود.
+
+VPN و امنیت شبکه: با استفاده از قابلیت‌های پیشرفته RouterOS، می‌توان تونل‌های VPN امن ایجاد کرد و از امنیت اطلاعات شبکه اطمینان حاصل کرد.
+
+برپایی سرورهای مختلف: RouterOS امکان نصب و مدیریت سرورهای مختلف مانند DHCP، DNS، و Hotspot را فراهم می‌کند که برای کسب‌و‌کارها و ارائه‌دهندگان خدمات اینترنت بسیار مفید است.
+
+میکروتیک با ارائه راه‌حل‌های پیشرفته و انعطاف‌پذیر، نیازهای مختلف کاربران در سطوح گوناگون را پوشش می‌دهد. از کسب‌و‌کارهای کوچک تا شبکه‌های بزرگ سازمانی، همه می‌توانند از محصولات و خدمات میکروتیک بهره‌مند شوند.
+
+https://www.youtube.com/watch?v=07SuqXAWQSg
+
+
+## آموزش ssh  در میکروتیک و اتصال به اینترنت آزاد 
+
+ Mikrotik SSH Tunnel EXPERT Shares Top VPN Secrets + در میکروتیک ssh تانل 
+
+ انل ssh یکی از راحت ترین راهها برای دسترسی به اینترنت آزاد هست سرعت خوبی هم داره فقط حواستون باشه تعداد نفر زیاد و یا حجم زیاد استفاده کنید سریع یا محدود میشید یا فیلتر
+در آموزشهای بعدی محدود کردن یوزر رو هم با هم یاد میگیریم
+
+
+
+میکروتیک یک شرکت معتبر در زمینه تولید تجهیزات شبکه و نرم‌افزارهای مرتبط است که در سال ۱۹۹۶ در لتونی تأسیس شد. این شرکت به واسطه محصولات با کیفیت و مقرون به صرفه‌اش، به ویژه روتر‌بورد‌ها (RouterBoard) و سیستم‌عامل پیشرفته RouterOS شناخته شده است.
+
+کاربردهای میکروتیک:
+
+مدیریت شبکه‌های تجاری و خانگی: روترهای میکروتیک با امکاناتی مانند کنترل ترافیک، فایروال، و مدیریت پهنای باند به کاربران امکان مدیریت و نظارت بر شبکه‌های خود را می‌دهند.
+
+شبکه‌های وایرلس: میکروتیک راه‌حل‌های کامل برای ایجاد و مدیریت شبکه‌های بی‌سیم ارائه می‌دهد که شامل روترهای وایرلس، آنتن‌ها، و تجهیزات مرتبط می‌شود.
+
+VPN و امنیت شبکه: با استفاده از قابلیت‌های پیشرفته RouterOS، می‌توان تونل‌های VPN امن ایجاد کرد و از امنیت اطلاعات شبکه اطمینان حاصل کرد.
+
+برپایی سرورهای مختلف: RouterOS امکان نصب و مدیریت سرورهای مختلف مانند DHCP، DNS، و Hotspot را فراهم می‌کند که برای کسب‌و‌کارها و ارائه‌دهندگان خدمات اینترنت بسیار مفید است.
+
+میکروتیک با ارائه راه‌حل‌های پیشرفته و انعطاف‌پذیر، نیازهای مختلف کاربران در سطوح گوناگون را پوشش می‌دهد. از کسب‌و‌کارهای کوچک تا شبکه‌های بزرگ سازمانی، همه می‌توانند از محصولات و خدمات میکروتیک بهره‌مند شوند.
+
+
+https://www.youtube.com/watch?v=WvqA2j-1oAA
+
+
+## یه ايده جالب، نصب سافت‌اتر روی openwrt 👌
+
+هم میشه سرور رو نصب کرد و هم کلاینت..
+
+ Setup and Config SoftEther Client on Openwrt - Using in Edge Mode and VPN Server 
+
+ Part 1: Setup & Configuration for Edge mode
+Part 2: Config as VPN Server on the Networks
+
+https://www.youtube.com/watch?v=UKcl2FjcwuU
+
+
+
+## My OpenWrt Initial Setup
+
+ستاپ روترم که روش OpenWrt و Passwall با رول‌ست جداکردن ترافیک ایران از vpn هست رو اینجا داکیومنت کردم
+لیست دامنه‌های داخلی هم هفتگی آپدیت میشه خودکار تو این ستاپ
+
+
+
+My Router Info
+
+    Model: Linksys EA8100
+    Memory: 256MB
+    Storage: Using 16GB thumb drive as extroot
+    OpenWrt Version: OpenWrt 23.05.3 r23809-234f1a2efa / LuCI openwrt-23.05 branch git-24.073.29889-cd7e519
+
+
+https://gist.github.com/ahbanavi/ef39d70aef6a1778a9c83c5f0fb86dfc
+
+
+
+## دانلود و نصب میکروتیک روتر او اس با لایسنس لول 6 👇
+
+با تشکر از مهندس جوانی که لینک رو ارسال کردن 🙏
+
+MikroTik RouterOS Patch [中文]
+[Discord] [Telegram] [Keygen(Telegram Bot)]
+Download Latest Patched iso file,install it and enjoy.
+CHR image is both support BIOS and UEFI boot mode.
+Support online upgrade,online license,cloud backup,cloud DDNS
+
+https://github.com/elseif/MikroTikPatch/blob/main/README_EN.md
+
+
+##  Step-by-Step Guide to Creating OpenVPN with TunnelBear 
+
+Looking to boost your online security with a powerful VPN? In this video, I’ll show you how to easily create your own OpenVPN configuration using the popular TunnelBear service. With this method, you can securely and privately access the internet from anywhere. If you're searching for a simple and effective way to set up a VPN, this tutorial is perfect for you!
+
+🔒 Features:
+
+    Step-by-step guide on creating OpenVPN configuration
+    Using TunnelBear for a secure connection
+    Enhanced privacy and bypassing restrictions
+    Works on all devices
+
+Watch the video and make sure to subscribe for more tutorials and internet security tips!
+
+https://www.youtube.com/watch?v=vdbIVi2ffns
+
+##  4 fast OpenVPN methods on Windows and Android 
+
+In this video, discover 4 easy and quick methods to set up OpenVPN files on Windows and Android devices. If you're looking for secure internet access and freedom online, follow this step-by-step guide using OpenVPN GUI, Windscribe, and HTTP Custom. These methods make it simple to install and run OpenVPN on any device, whether you’re a beginner or an experienced user.
+
+    Introduction to different OpenVPN tools
+    4 straightforward setup methods for Windows and Android
+    Practical tips for enhanced security and unrestricted access
+
+👁️‍🗨️ Want unrestricted internet? Watch this video now!
+
+https://www.youtube.com/watch?v=YxPsQNaUvnE
+
+
+## بچه های wrt باز این پروژه رو هم دریابید ..
+
+https://github.com/peditx/PeDitXrt
